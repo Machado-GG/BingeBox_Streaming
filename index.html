@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BingeBox Streaming</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <img class="nav__logo" src="img/binge-logo.png" alt="BingeBox">
+            <nav class="navigation">
+                <a href="#categories">Categorias</a>
+                <a href="#highlights">Destaques</a>
+                <a href="#subscriptions">Planos</a>
+                <a href="#contact">Contato</a>
+            </nav>
+            <a href="#" class="cta-button">Sign In</a>
+        </header>
+
+        <main>
+            <section class="features">
+                <img class="features__bg" src="img/background-test2.jpg" alt="grid">
+                <div class="features__foreground">
+                    <h2 class="features__title">As melhores histórias, as maiores emoções.</h2>
+                    <p class="features__text">A qualquer hora. Em qualquer lugar.</p>
+                </div>
+            </section>
+
+            <section id="categories" class="categories">
+                <div class="categories__container">
+                    <h2 class="categories__title">Assista em qualquer dispositivo!</h2>
+                    <p class="categories__text1">
+                        Desfrute sem limites de séries e filmes para todos os gostos e telas! <br>
+                        Disponível para Computadores, Tablets, Smart TVs, Chromecast, Apple TV, 
+                        Notebooks, Smartphones e muito mais! Aproveite seus conteúdos favoritos 
+                        com qualidade excepcional em qualquer dispositivo.                
+                    </p>
+                    <p class="categories__sub"> - Conecte-se ao que há de melhor em entretenimento! - </p>
+                    <p class="categories__text2">Horas de conteúdo nas mais diversas categorias!</p>                
+                    <ul class="list__themes">
+                        <li>Ficção</li>   
+                        <li>Romance</li>
+                        <li>Mistério</li>
+                        <li>Investigação</li>
+                        <li>Terror</li>
+                        <li id="more"><a class="more" href="#"><strong>E MAIS</strong></a></li>
+                    </ul>               
+                </div>
+                <img class="categories__remote" src="img/sleek-tv-device2.png" alt="controle">
+            </section>
+
+            <section id="highlights" class="highlights">
+                <h2>Hot Picks imperdíveis 🔥</h2>
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-content">                                    
+                                    <div class="card-image">
+                                        <img src="img/covers/arrival-cover.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">                                    
+                                    <div class="card-image">
+                                        <img src="img/covers/immaculate.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">                                    
+                                    <div class="card-image">
+                                        <img src="img/covers/oppenheimer-cover.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">                                    
+                                    <div class="card-image">
+                                        <img src="img/covers/interstellar.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div class="card swiper-slide">
+                                <div class="image-content">                                    
+                                    <div class="card-image">
+                                        <img src="img/covers/creator-cover.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">                                    
+                                    <div class="card-image">
+                                        <img src="img/covers/evil-dead-cover.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">                                    
+                                    <div class="card-image">
+                                        <img src="img/covers/monkey-man.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">                                    
+                                    <div class="card-image">
+                                        <img src="img/covers/avatar-2-cover.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">                                    
+                                    <div class="card-image">
+                                        <img src="img/covers/dune-2.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section id="subscriptions" class="container__cards">
+                <h2 class="cards__title">Escolha o Plano Perfeito para Você</h2>
+                <div class="cards">           
+                    <div class="cards__box">
+                        <h3>Basic</h3>
+                        <p class="cards__text">
+                            Aproveite todos os filmes e séries, incluindo lançamentos e exclusivos! 
+                            Streaming FullHD garantido e incrível.                    
+                        </p>
+                        <p class="cards__price">
+                            <strong>Por apenas R$20,99!</strong>
+                        </p>
+                        <a href="#" class="cards__btn">Escolher</a>
+                    </div>
+                    <div class="cards__box">
+                        <h3>Premium</h3>
+                        <p class="cards__text">
+                            Tenha acesso à todas as funções <strong>Basic</strong> e disfrute de um streaming
+                            exclusivo em UltraHD (4K) em até 3 dispositivos simultâneos.
+                        </p>
+                        <p class="cards__price">
+                            <strong>Por apenas R$29,90!</strong>
+                        </p>
+                        <a href="#" class="cards__btn">Escolher</a>
+                    </div>
+                    <div class="cards__box">
+                        <h3>Comfort</h3>
+                        <p class="cards__text">
+                            Ideal para compartilhar! Toda a biblioteca de filmes e séries,
+                            em FullHD, com até seis dispositivos simultaneamente!
+                        </p>
+                        <p class="cards__price">
+                            <strong>Por apenas R$44,90!</strong>
+                        </p>
+                        <a href="#" class="cards__btn">Escolher</a>
+                    </div>
+                </div>
+                <h2 class="cards__title" id="title2">E decida como assistir!</h2>    
+            </section>
+
+            <section id="contact" class="contact">
+                <img class="contact__img" src="img/image0_0.jpg" alt="">
+                <div class="coments">
+                    <h2 class="coments__title">Tenha sempre o controle da sua diversão!</h2>
+                    <form class="form">
+                        <label for="email">Receba mais informações sobre nossos planos!</label><br>
+                        <input type="text" id="email" name="email" placeholder="Digite seu e-mail" required>
+                        <button class="btn">Enviar</button>
+                    </form>
+                </div>
+            </section>
+
+            <div class="fixed">
+                <a href="#">
+                    <img src="img/Icons/arrow-up.png" alt="arrow pointing up">                    
+                </a>
+            </div>
+        </main>
+        
+        <footer>
+            <ul class="footer__list">
+                <li class="list__link">
+                    <a href="#">Ajuda</a>
+                </li>
+                <li class="list__link">
+                    <a href="#">Exclusivos BingeBox</a>
+                </li>
+                <li class="list__link">
+                    <a href="#">Contate-nos</a>
+                </li>
+                <li class="list__link">
+                    <a href="#">Termos de Uso</a>
+                </li>
+                <li class="list__link">
+                    <a href="#">Política de Privacidade</a>
+                </li>
+            </ul>
+            <ul class="footer__icons">
+                <li>
+                    <a href="https://github.com/Machado-GG" target="_blank">
+                        <img src="img/Icons/github.png" alt="icone github">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/gabriel-machado-76737520a/" target="_blank">
+                        <img src="img/Icons/linkedin.png" alt="icone linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/_gabrielmachado_/" target="_blank">
+                        <img src="img/Icons/instagram.png" alt="icone instagram">
+                    </a>
+                </li>
+            </ul>
+            <p class="bottom">&copy; 2024 BingeBox <a href="https://github.com/Machado-GG" target="_blank">@Gabriel Machado</a>
+        </footer>
+    </body>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</html>
